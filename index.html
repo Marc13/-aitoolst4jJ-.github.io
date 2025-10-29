@@ -9,16 +9,34 @@
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/logo.png" alt="AIToolsT4J Logo" class="logo">
-    <h1>AIToolsT4J — Teaching for Joy 🌱</h1>
-    <p class="lead">Bite-sized lessons and real AI projects to help beginners and creators learn AI step by step.</p>
-    <nav class="nav">
-      <a href="/">Home</a>
-      <a href="/projects/clickly.html">Projects</a>
-      <a href="/tutorials/getting-started.html">Tutorials</a>
+
+  <!-- Top navigation -->
+  <header class="site-header">
+    <a class="brand" href="/">
+      <img src="assets/logo.png" alt="AIToolsT4J Logo" class="brand-logo">
+      <span>AIToolsT4J</span>
+    </a>
+    <nav class="topnav">
+      <a class="btn-pill" href="/">Home</a>
+      <a class="btn-pill" href="/projects/clickly.html">Projects</a>
+      <a class="btn-pill" href="/tutorials/getting-started.html">Tutorials</a>
     </nav>
   </header>
+
+  <!-- Split hero (black left, image right with blend) -->
+  <section class="hero-split">
+    <div class="hero-text">
+      <h1>AIToolsT4J — Teaching for Joy</h1>
+      <p class="lead">Bite-sized lessons and real AI projects to help beginners and creators learn AI step by step.</p>
+      <div class="hero-cta">
+        <a class="btn-primary" href="/projects/clickly.html">View Projects</a>
+        <a class="btn-ghost" href="/tutorials/getting-started.html">Start Learning</a>
+      </div>
+    </div>
+    <div class="hero-media" aria-label="Marcia Parker">
+      <!-- Background image is set in CSS via assets/hero.jpg -->
+    </div>
+  </section>
 
   <main class="container">
     <section>
@@ -41,6 +59,10 @@
   </main>
 
   <footer class="footer">© <span id="y"></span> AIToolsT4J — Learn one joyful step at a time.</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
+
   <!--  Replace placeholder with homepage HTML-->
   
   <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
