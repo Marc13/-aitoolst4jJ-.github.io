@@ -92,9 +92,10 @@ body {
 .hero-media {
   position: relative;
   min-height: 44vh;
-  background-image: url('/assets/hero.jpg');       /* <-- place your photo at assets/hero.jpg */
+  background-image: url('assets/hero.jpg');  /* ← removed leading slash */
   background-size: cover;
   background-position: center right;
+  background-repeat: no-repeat;
 }
 /* Gradient overlay that blends the image into the black panel */
 .hero-media::before {
