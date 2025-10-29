@@ -110,9 +110,6 @@ body {
   /* absolute path from site root (most bulletproof) */
 background-image: url('/assets/hero.jpg');
 
-/* or, relative to styles.css location */
-background-image: url('hero.jpg');
-
   background-size: cover;
   background-position: center right;
   background-repeat: no-repeat;
