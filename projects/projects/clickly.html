@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clickly — Chrome Extension | AIToolsT4J</title>
+  <meta name="description" content="Clickly is a simple Chrome extension that counts clicks per page and logs basic analytics. Built as a learning project on AIToolsT4J.">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>Clickly — Chrome Extension</h1>
+    <p class="lead">Counts your clicks per page + a tiny analytics dashboard.</p>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/projects/clickly.html">Project</a>
+      <a href="/tutorials/getting-started.html">Tutorials</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>What I built</h2>
+      <p>A lightweight Chrome extension that increments a counter whenever you click on a page, and logs totals by URL.</p>
+      <h3>Skills practiced</h3>
+      <ul>
+        <li>Chrome extension manifest & file structure</li>
+        <li>DOM events & content scripts</li>
+        <li>Local storage for simple analytics</li>
+      </ul>
+      <h3>Repo & install</h3>
+      <ol>
+        <li>Clone or download the Clickly folder (coming soon to your public repo).</li>
+        <li>Go to <strong>chrome://extensions</strong> → enable <strong>Developer mode</strong> → <strong>Load unpacked</strong> → select the folder.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="y"></span> AIToolsT4J</footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
