@@ -30,7 +30,12 @@ body {
   border-bottom: 1px solid #eef2f7;
 }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text-main); font-weight: 700; }
-.brand-logo { width: 36px; height: 36px; object-fit: contain; }
+.brand-logo {
+  width: 70px;       /* bigger logo */
+  height: auto;
+  object-fit: contain;
+  margin-left: 8px;  /* small left margin for spacing */
+}
 .topnav { display: flex; gap: 10px; flex-wrap: wrap; }
 .btn-pill {
   text-decoration: none;
