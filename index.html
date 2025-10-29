@@ -1,11 +1,47 @@
-aitoolst4j.github.io/
-├─ index.html
-├─ .nojekyll
-├─ assets/
-│  ├─ styles.css
-│  ├─ favicon.ico   (optional)
-│  └─ images/
-├─ projects/
-│  └─ clickly.html
-└─ tutorials/
-   └─ getting-started.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AIToolsT4J — Teaching for Joy</title>
+  <meta name="description" content="AIToolsT4J shares bite-sized lessons and real AI projects to help beginners and creators learn Artificial Intelligence step by step. Explore tools, tutorials, and guides to thrive in the AI revolution.">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <h1>AIToolsT4J — Teaching for Joy 🌱</h1>
+    <p class="lead">Bite-sized lessons and real AI projects to help beginners and creators learn AI step by step.</p>
+    <nav class="nav">
+      <a href="/">Home</a>
+      <a href="/projects/clickly.html">Projects</a>
+      <a href="/tutorials/getting-started.html">Tutorials</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Featured</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Project</span>
+          <h3>Clickly — Chrome Extension</h3>
+          <p>Counts clicks per page and tracks simple analytics. A fun starter to learn extensions.</p>
+          <a class="link" href="/projects/clickly.html">View case study →</a>
+        </article>
+        <article class="card">
+          <span class="tag">Tutorial</span>
+          <h3>AI Tools for Beginners</h3>
+          <p>Quick, practical tips to get your first wins with AI tools—no experience needed.</p>
+          <a class="link" href="/tutorials/getting-started.html">Read tutorial →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© <span id="y"></span> AIToolsT4J — Learn one joyful step at a time.</footer>
+  <!--  Replace placeholder with homepage HTML-->
+  
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
